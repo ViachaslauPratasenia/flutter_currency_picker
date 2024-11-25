@@ -123,6 +123,7 @@ class _CurrencyListViewState extends State<CurrencyListView> {
           child: widget.showSearchField
               ? TextField(
                   controller: _searchController,
+                  style: widget.theme?.searchFieldTextStyle,
                   decoration: widget.theme?.inputDecoration ?? InputDecoration(
                     labelText: widget.searchHint ?? "Search",
                     hintText: widget.searchHint ?? "Search",
