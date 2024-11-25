@@ -25,6 +25,11 @@ class CurrencyPickerThemeData {
   /// If null, the style will be set to [null]
   final TextStyle? searchFieldTextStyle;
 
+  /// The color used for cursor in the search field
+  ///
+  /// If null, the color will be set to [null]
+  final Color? searchCursorColor;
+
   ///The decoration used for the search field
   ///
   /// It defaults to a basic outline-bordered input decoration
@@ -44,6 +49,7 @@ class CurrencyPickerThemeData {
     this.shape,
     this.flagSize,
     this.titleTextStyle,
+    this.searchCursorColor,
     this.searchFieldTextStyle,
     this.inputDecoration,
     this.subtitleTextStyle,

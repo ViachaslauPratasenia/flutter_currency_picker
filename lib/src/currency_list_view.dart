@@ -124,6 +124,7 @@ class _CurrencyListViewState extends State<CurrencyListView> {
               ? TextField(
                   controller: _searchController,
                   style: widget.theme?.searchFieldTextStyle,
+                  cursorColor: widget.theme?.searchCursorColor,
                   decoration: widget.theme?.inputDecoration ?? InputDecoration(
                     labelText: widget.searchHint ?? "Search",
                     hintText: widget.searchHint ?? "Search",
